@@ -16,6 +16,7 @@ public class Counter : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
             OnPush();
     }
+    
     public void OnPush()
     {
         _canIncrease = !_canIncrease;
